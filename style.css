@@ -3,7 +3,7 @@ body {
     flex-direction: column;
 }
 
-.navycontainer {
+.navy-container {
     display: flex;
     flex-direction: column;
     background: navy;
@@ -34,4 +34,19 @@ ul li {
 .header h1 {
     padding-left: 100px;
     font-size: 18px;
+}
+
+.navy {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-writing {
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-image {
+    padding-right: 100px;
 }
