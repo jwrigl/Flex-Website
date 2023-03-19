@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.navycontainer {
+    display: flex;
+    flex-direction: column;
+    background: navy;
+}
+
+.header {
+    display: flex;
+    background: navy;
+    color:white;
+    
+}
