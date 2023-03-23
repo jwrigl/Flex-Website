@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    padding: 2rem 20%;
+    padding: 2rem 20vw;
 }
 
 .header {
@@ -13,7 +13,7 @@ body {
 }
 
 .title {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 ul {
@@ -23,4 +23,30 @@ ul {
 
 li {
     display: flex;
+}
+
+.navy-container {
+    display: flex;
+    background-color: navy;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-container, .right-container {
+    display: flex;
+    max-width: 50%;
+
+}
+
+.left-container {
+    flex-direction: column;
+}
+
+.left-title {
+    font-size: 1.5rem;
+}
+
+img {
+    width: 50vw;
 }
