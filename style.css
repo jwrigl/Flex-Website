@@ -1,7 +1,6 @@
 body {
     display: flex;
     flex-direction: column;
-    padding: 2rem 20vw;
 }
 
 .header {
@@ -10,6 +9,7 @@ body {
     background-color: navy;
     color: white;
     align-items: center;
+    padding: 2rem 20vw;
 }
 
 .title {
@@ -32,6 +32,8 @@ li {
     align-items: center;
     justify-content: space-between;
     padding: 2rem 0 ;
+    background-clip: padding-box;
+    padding: 2rem 20vw;
 }
 
 .left-container, .right-container {
@@ -58,6 +60,7 @@ li {
     align-items: center;
     color: grey;
     padding: 2rem 0;
+    padding: 2rem 20vw;
 }
 
 .picture-showcase-title {
@@ -93,6 +96,7 @@ li {
     color: white;
     font-size: 2rem;
     padding: 2rem 0 ;
+    padding: 2rem 20vw;
 }
 
 .quote-author {
@@ -106,6 +110,7 @@ li {
     justify-content: center;
     align-items: center;
     padding: 2rem 0;
+    padding: 2rem 20vw;
 
 }
 
