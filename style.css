@@ -14,6 +14,7 @@ body {
     color: white;
     align-items: center;
     padding: 2rem 20vw;
+    flex: auto;
 }
 
 .title {
@@ -37,9 +38,9 @@ li {
     color: white;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem 0 ;
     background-clip: padding-box;
-    padding: 2rem 20vw;
+    padding: 10rem 20vw;
+    flex: auto;
 }
 
 .left-container, .right-container {
@@ -81,8 +82,9 @@ button {
     flex-direction: column;
     align-items: center;
     color: grey;
-    padding: 2rem 0;
     padding: 2rem 20vw;
+    padding-bottom: 6rem ;
+    flex: auto;
 }
 
 .picture-showcase-title {
@@ -119,8 +121,9 @@ button {
     background: #E5E7EB;
     font-size: 2rem;
     padding: 2rem 0 ;
-    padding: 2rem 20vw;
+    padding: 8rem 20vw;
     font-style: italic;
+    flex: auto;
 
 }
 
@@ -138,8 +141,8 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem 0;
-    padding: 4rem 20vw;
+    padding: 8rem 20vw;
+    flex: auto;
 
 }
 
@@ -153,7 +156,6 @@ button {
     border: 1px solid #3882f6; 
     align-items: center;
     justify-content: space-around ;
-
 
 }
 
@@ -187,6 +189,7 @@ button {
     background-color: #1F2937;
     width: 100%;
     justify-content: center;
-    padding: 1rem;
+    padding: 2rem;
+    align-items:flex-end ;
 }
 
