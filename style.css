@@ -85,3 +85,18 @@ li {
     width: 10vw;
 
 }
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    background: grey;
+    color: white;
+    font-size: 2rem;
+    padding: 2rem 0 ;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
