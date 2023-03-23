@@ -18,6 +18,7 @@ body {
 
 .title {
     font-size: 24PX;
+    font-weight: bold;
 }
 
 ul {
@@ -62,8 +63,17 @@ li {
     font-size: 18px;
 }
 
+button {
+    max-width: 5vw;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 10px; 
+    border: 1px solid #3882f6; 
+    padding: 0.5vh 0.5vw;
+}
+
 .right-container img {
-    width: 50vw;
+    width: 30vw;
 }
 
 .picture-showcase-container {
@@ -139,6 +149,10 @@ li {
     width: 100vw;
     padding: 3rem 3rem;
     justify-content: space-between;
+    border-radius: 10px; 
+    border: 1px solid #3882f6; 
+    align-items: center;
+    justify-content: space-around ;
 
 
 }
@@ -158,8 +172,13 @@ li {
 
 .sign-up-text-body {
     font-size: 1.2rem;
+}
 
-
+.sign-up-button {
+    color: white;
+    border-radius: 10px; 
+    border: 1px solid white; 
+    max-height: 3vh;
 }
 
 .footer {
@@ -170,3 +189,4 @@ li {
     justify-content: center;
     padding: 1rem;
 }
+
