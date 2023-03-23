@@ -110,7 +110,7 @@ li {
     justify-content: center;
     align-items: center;
     padding: 2rem 0;
-    padding: 2rem 20vw;
+    padding: 4rem 20vw;
 
 }
 
@@ -118,7 +118,7 @@ li {
     display: flex;
     background-color: blue;
     width: 100vw;
-    padding: 2rem 3rem;
+    padding: 3rem 3rem;
     justify-content: space-between;
 
 
@@ -141,4 +141,13 @@ li {
     font-size: 1.2rem;
 
 
+}
+
+.footer {
+    display: flex;
+    color: white;
+    background-color: navy;
+    width: 100%;
+    justify-content: center;
+    padding: 1rem;
 }
