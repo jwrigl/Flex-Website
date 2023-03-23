@@ -100,3 +100,40 @@ li {
     justify-content: flex-end;
     font-weight: bold;
 }
+
+.sign-up-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+
+}
+
+.sign-up-box {
+    display: flex;
+    background-color: blue;
+    width: 100vw;
+    padding: 2rem 3rem;
+    justify-content: space-between;
+
+
+}
+
+.sign-up-text-container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 1vh;
+    max-width: 75%;
+
+}
+
+.sign-up-text-title {
+    font-size: 1.5rem;
+}
+
+.sign-up-text-body {
+    font-size: 1.2rem;
+
+
+}
